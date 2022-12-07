@@ -16,7 +16,8 @@ port = 12345
 # coming from other computers on the network
 s.bind(('', port))        
 print ("socket binded to %s" %(port))
- 
+
+ print("This is server to client connection")
 # put the socket into listening mode
 s.listen(5)    
 print ("socket is listening")           
